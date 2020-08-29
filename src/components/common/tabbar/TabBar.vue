@@ -12,11 +12,11 @@ export default {};
 #tab-bar {
   position: fixed;
   display: flex;
-  height: 49px;
+  height: 3.0625rem;
   background-color: #f6f6f6f6;
-  left: 0px;
-  bottom: 0px;
-  right: 0px;
-  box-shadow: 0 -2px 1px rgba(100, 100, 100, 0.1);
+  left: 0rem;
+  bottom: 0rem;
+  right: 0rem;
+  box-shadow: 0 -0.125rem 0.0625rem rgba(100, 100, 100, 0.1);
 }
 </style>

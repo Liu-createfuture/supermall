@@ -43,15 +43,15 @@ export default {
 
 <style scoped>
 .goods-item {
-  padding-bottom: 60px;
+  padding-bottom: 3.75rem;
   position: relative;
   width: 48%;
 }
 .goods-info {
-  font-size: 12px;
+  font-size: 0.75rem;
   position: absolute;
-  left: 0px;
-  right: 0px;
+  left: 0rem;
+  right: 0rem;
   text-align: center;
   overflow: hidden;
 }
@@ -59,16 +59,16 @@ export default {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  margin-bottom: 5px;
+  margin-bottom: 0.3125rem;
 }
 .goods-item img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 
 .goods-info .price {
   color: pink;
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 .goods-info .collect {
   position: relative;
@@ -76,10 +76,10 @@ export default {
 .goods-info .collect::before {
   content: "";
   position: absolute;
-  left: -15px;
-  top: 1px;
-  width: 14px;
-  height: 14px;
-  background: url("~assets/img/goods/星星.svg") 0 0/14px 14px;
+  left: -0.9375rem;
+  top: 0.0625rem;
+  width: 0.875rem;
+  height: 0.875rem;
+  background: url("~assets/img/goods/星星.svg") 0 0/0.875rem 0.875rem;
 }
 </style>

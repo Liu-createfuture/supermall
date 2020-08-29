@@ -30,18 +30,18 @@ export default {
   flex-wrap: wrap;
   justify-content: space-between;
   text-align: center;
-  padding: 10px;
+  padding: 0.625rem;
 }
 .info-item {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  width: 80px;
-  height: 100px;
-  margin: 10px 0;
+  width: 5rem;
+  height: 6.25rem;
+  margin: 0.625rem 0;
 }
 img {
-  width: 65px;
+  width: 4.0625rem;
 }
 </style>

@@ -19,7 +19,7 @@ export default {
 
 <style scoped>
 img {
-  width: 30px;
+  width: 1.875rem;
   z-index: 10;
 }
 </style>

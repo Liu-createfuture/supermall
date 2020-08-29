@@ -49,72 +49,72 @@ export default {
 
 <style scoped>
 .comment-info {
-  padding: 5px 12px;
+  padding: 0.3125rem 0.75rem;
   color: #333333;
-  border-bottom: 5px solid #f2f5f8;
+  border-bottom: 0.3125rem solid #f2f5f8;
 }
 
 .info-header {
-  line-height: 50px;
-  height: 50px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  line-height: 3.125rem;
+  height: 3.125rem;
+  border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.1);
 }
 
 .header-title {
-  font-size: 15px;
+  font-size: 0.9375rem;
   float: left;
 }
 
 .header-more {
-  font-size: 13px;
+  font-size: 0.8125rem;
   float: right;
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 
 .info-user {
-  padding: 10px 0 5px;
+  padding: 0.625rem 0 0.3125rem;
 }
 
 .info-user img {
-  width: 42px;
-  height: 42px;
+  width: 2.625rem;
+  height: 2.625rem;
   border-radius: 50%;
 }
 
 .info-user span {
-  font-size: 15px;
+  font-size: 0.9375rem;
   position: relative;
-  top: -15px;
-  margin-left: 10px;
+  top: -0.9375rem;
+  margin-left: 0.625rem;
 }
 
 .info-detail {
-  padding: 0 5px 15px;
+  padding: 0 0.3125rem 0.9375rem;
 }
 
 .info-detail p {
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.5;
   color: #777777;
 }
 
 .info-detail .info-other {
-  font-size: 12px;
-  margin-top: 10px;
+  font-size: 0.75rem;
+  margin-top: 0.625rem;
   color: #999999;
 }
 
 .info-other .date {
-  margin-right: 8px;
+  margin-right: 0.5rem;
 }
 
 .info-imgs {
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 
 .info-imgs img {
-  width: 70px;
-  height: 70px;
-  margin-right: 5px;
+  width: 4.375rem;
+  height: 4.375rem;
+  margin-right: 0.3125rem;
 }
 </style>

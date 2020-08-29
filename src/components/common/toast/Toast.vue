@@ -33,14 +33,14 @@ export default {
   position: fixed;
   top: 50%;
   left: 50%;
-  width: 170px;
-  height: 100px;
-  border-radius: 20px;
+  width: 10.625rem;
+  height: 6.25rem;
+  border-radius: 1.25rem;
   text-align: center;
-  line-height: 100px;
+  line-height: 6.25rem;
   transform: translate(-50%, -50%);
   background-color: rgba(0, 0, 0, 0.75);
   color: #ffffff;
-  padding: 10px;
+  padding: 0.625rem;
 }
 </style>

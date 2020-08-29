@@ -28,6 +28,6 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 8px;
+  padding: 0.5rem;
 }
 </style>

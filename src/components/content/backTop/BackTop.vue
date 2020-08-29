@@ -13,12 +13,12 @@ export default {
 <style scoped>
 .back-top {
   position: fixed;
-  right: 8px;
-  bottom: 55px;
+  right: 0.5rem;
+  bottom: 3.4375rem;
 }
 .back-top img {
-  height: 43px;
-  width: 43px;
+  height: 2.6875rem;
+  width: 2.6875rem;
   border-radius: 50%;
   background-color: aliceblue;
 }

@@ -43,52 +43,52 @@ export default {
 
 <style>
 .base-info {
-  margin: 0 10px;
+  margin: 0 0.625rem;
 }
 .info-title {
   text-align: justify;
-  margin: 10px 0;
-  line-height: 20px;
+  margin: 0.625rem 0;
+  line-height: 1.25rem;
   color: #222222;
 }
 .info-price {
-  height: 40px;
+  height: 2.5rem;
 }
 .n-price {
-  font-size: 25px;
+  font-size: 1.5625rem;
   color: #ff5777;
 }
 .o-price {
   text-decoration: line-through;
   color: #999999;
-  margin: 0 5px;
-  font-size: 15px;
+  margin: 0 0.3125rem;
+  font-size: 0.9375rem;
 }
 .info-price .discount {
   position: absolute;
-  padding: 2px 5px;
+  padding: 0.125rem 0.3125rem;
   background-color: #ff5777;
   color: aliceblue;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   text-align: center;
 }
 .info-other,
 .info-service {
   display: flex;
-  font-size: 13px;
-  line-height: 50px;
+  font-size: 0.8125rem;
+  line-height: 3.125rem;
   justify-content: space-between;
-  border-bottom: 1px solid rgba(100, 100, 100, 0.1);
+  border-bottom: 0.0625rem solid rgba(100, 100, 100, 0.1);
   color: #999999;
-  margin: 5px 0;
+  margin: 0.3125rem 0;
 }
 .info-service {
   color: black;
 }
 .info-service img {
   position: relative;
-  top: 3px;
-  left: -2px;
-  width: 15px;
+  top: 0.1875rem;
+  left: -0.125rem;
+  width: 0.9375rem;
 }
 </style>

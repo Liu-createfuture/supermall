@@ -27,7 +27,7 @@ export default {
 
 <style>
 .detail-swiper {
-  height: 350px;
+  height: 21.875rem;
   overflow: hidden;
 }
 </style>

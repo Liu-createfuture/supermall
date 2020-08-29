@@ -238,19 +238,19 @@ export default {
   justify-content: center;
   position: absolute;
   width: 100%;
-  bottom: 8px;
+  bottom: 0.5rem;
 }
 
 .indi-item {
   box-sizing: border-box;
-  width: 8px;
-  height: 8px;
-  border-radius: 4px;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 0.25rem;
   background-color: #fff;
-  line-height: 8px;
+  line-height: 0.5rem;
   text-align: center;
-  font-size: 12px;
-  margin: 0 5px;
+  font-size: 0.75rem;
+  margin: 0 0.3125rem;
 }
 
 .indi-item.active {

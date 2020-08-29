@@ -19,13 +19,13 @@ export default {};
 <style>
 .nav-bar {
   display: flex;
-  line-height: 44px;
-  height: 44px;
-  box-shadow: 0 -2px 5px #918b8b;
+  line-height: 2.75rem;
+  height: 2.75rem;
+  box-shadow: 0 -0.125rem 0.3125rem #918b8b;
 }
 .left,
 .right {
-  width: 60px;
+  width: 3.75rem;
 }
 .center {
   flex: 1;

@@ -183,9 +183,9 @@ export default {
 }
 .content {
   position: absolute;
-  top: 44px;
+  top: 2.75rem;
   right: 0;
-  bottom: 50px;
+  bottom: 3.125rem;
   left: 0;
   overflow: hidden;
   width: 100%;

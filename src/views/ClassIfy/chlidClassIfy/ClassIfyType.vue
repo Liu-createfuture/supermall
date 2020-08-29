@@ -50,8 +50,8 @@ export default {
 
 <style scoped>
 .type-left {
-  width: 100px;
-  height: calc(100% - 94px);
+  width: 6.25rem;
+  height: calc(100% - 5.875rem);
   background-color: #efefef;
   overflow: hidden;
 }
@@ -62,12 +62,12 @@ export default {
 .srotColor {
   background-color: #ffffff;
   font-weight: 700;
-  border-left: 5px solid red;
+  border-left: 0.3125rem solid red;
 }
 .trol {
   text-align: center;
-  height: 55px;
-  line-height: 55px;
+  height: 3.4375rem;
+  line-height: 3.4375rem;
   user-select: none;
 }
 </style>

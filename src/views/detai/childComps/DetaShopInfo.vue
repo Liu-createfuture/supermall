@@ -54,23 +54,23 @@ export default {
 
 <style scoped>
 .shop-info {
-  margin: 20px 10px;
+  margin: 1.25rem 0.625rem;
 }
 .shop-top {
   display: flex;
   align-items: center;
 }
 .shop-top img {
-  height: 50px;
+  height: 3.125rem;
   border-radius: 50%;
 }
 .title {
-  margin-left: 10px;
+  margin-left: 0.625rem;
 }
 .shop-middle {
   display: flex;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 0.9375rem;
 }
 .shop-middle-item {
   flex: 1;
@@ -78,13 +78,13 @@ export default {
 .shop-middle-left,
 .shop-middle-right {
   display: flex;
-  line-height: 25px;
+  line-height: 1.5625rem;
   justify-content: space-evenly;
   text-align: center;
   color: #333333;
 }
 .shop-middle-left {
-  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 0.0625rem solid rgba(0, 0, 0, 0.1);
 }
 .shop-middle-right .score {
   color: #5ea732;
@@ -96,23 +96,23 @@ export default {
   background-color: #f13e3a;
 }
 .better {
-  padding: 3px;
+  padding: 0.1875rem;
   text-align: center;
   color: #ffffff;
   background-color: #5ea732;
 }
 .shop-bottom {
-  margin-top: 10px;
+  margin-top: 0.625rem;
   text-align: center;
 }
 .enter-shop {
-  font-size: 14px;
-  line-height: 30px;
+  font-size: 0.875rem;
+  line-height: 1.875rem;
   display: inline-block;
-  width: 150px;
-  height: 30px;
+  width: 9.375rem;
+  height: 1.875rem;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   background-color: #f2f5f8;
 }
 </style>

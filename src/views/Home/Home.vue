@@ -165,10 +165,10 @@ export default {
 .content {
   overflow: hidden;
   position: absolute;
-  top: 44px;
+  top: 2.75rem;
   left: 0;
   right: 0;
-  bottom: 49px;
+  bottom: 3.0625rem;
 }
 .tab-control {
   position: relative;

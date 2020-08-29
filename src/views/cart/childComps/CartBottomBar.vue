@@ -73,30 +73,30 @@ export default {
   position: fixed;
   display: flex;
   align-items: center;
-  height: 50px;
+  height: 3.125rem;
   left: 0;
   right: 0;
-  bottom: 49px;
-  box-shadow: 0 -2px 1px rgba(100, 100, 100, 0.1);
+  bottom: 3.0625rem;
+  box-shadow: 0 -0.125rem 0.0625rem rgba(100, 100, 100, 0.1);
   background-color: #ffffff;
 }
 .price {
-  margin-left: 40px;
+  margin-left: 2.5rem;
   flex: 1;
 }
 .check-button,
 span {
   display: flex;
   align-items: center;
-  margin-left: 5px;
+  margin-left: 0.3125rem;
 }
 .calculate {
   text-align: center;
-  margin-right: 10px;
-  padding: 10px;
-  width: 90px;
+  margin-right: 0.625rem;
+  padding: 0.625rem;
+  width: 5.625rem;
   background-color: rgb(247, 7, 7);
   color: #ffffff;
-  border-radius: 25px;
+  border-radius: 1.5625rem;
 }
 </style>

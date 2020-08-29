@@ -12,7 +12,7 @@
 
     <scroll class="right" ref="scroll" :probe-type="3" @scroll="contentScroll">
       <class-ify-info :SortItemList="SortItem" />
-      <tab-control :titles="tabList" @tabClick="tabClick" ref="tab" />
+      <tab-control :titles="tabList" @tabClick="tabClick" ref="tab" class="tab" />
       <goods-list :goods="classIfyTabItemList" />
     </scroll>
     <back-top @click.native="backClick" v-show="isShowBackTop" />
@@ -134,8 +134,13 @@ export default {
 .tab-control {
   position: relative;
   float: right;
+  top: 0;
+  right: 0;
   background-color: #ffffff;
   width: calc(100% - 6.25rem);
   z-index: 9;
+}
+.tab {
+  width: 100%;
 }
 </style>

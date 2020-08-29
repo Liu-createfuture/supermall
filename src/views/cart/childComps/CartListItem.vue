@@ -43,8 +43,8 @@ export default {
 #shop-item {
   display: flex;
   width: 100%;
-  padding: 5px;
-  border-bottom: 1px solid #ccc;
+  padding: 0.3125rem;
+  border-bottom: 0.0625rem solid #ccc;
 }
 
 .item-title,
@@ -54,34 +54,34 @@ export default {
   text-overflow: ellipsis;
 }
 .item-img {
-  padding: 5px;
+  padding: 0.3125rem;
   z-index: 10;
 }
 .item-img img {
-  width: 80px;
-  height: 110px;
+  width: 5rem;
+  height: 6.875rem;
   display: block;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
 }
 .item-info {
   position: relative;
   width: 100%;
-  font-size: 17px;
+  font-size: 1.0625rem;
   color: #333;
-  padding: 5px 10px;
+  padding: 0.3125rem 0.625rem;
   overflow: hidden;
 }
 .item-info .item-desc {
   color: #666;
-  margin-top: 15px;
-  font-size: 14px;
+  margin-top: 0.9375rem;
+  font-size: 0.875rem;
 }
 .info-bottom {
   position: absolute;
-  margin-top: 10px;
-  bottom: 10px;
-  left: 10px;
-  right: 10px;
+  margin-top: 0.625rem;
+  bottom: 0.625rem;
+  left: 0.625rem;
+  right: 0.625rem;
 }
 .info-bottom .item-price {
   float: left;
